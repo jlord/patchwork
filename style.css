@@ -1,6 +1,7 @@
 body {
   font-family: "Helvetica Neue", Arial, sans-serif; 
   margin: 0 auto; 
+  padding: 30px 0px;
   color: #fff; 
   background: #1aa6b1; 
   border: 30px solid #fff;
@@ -13,12 +14,17 @@ pre {
   font-size: 11px;
 }
 
+code {
+  margin: 0px;
+  padding: 0px;
+}
+
 /* Animation done by https://github.com/daneden */
 /* https://github.com/daneden/animate.css */
 
-/*#user-name {
-  -webkit-animation: swing 5s infinite;
-}*/
+#user-name {
+ width: 100%;
+}
 
 @-webkit-keyframes swing {
   20% {
@@ -114,7 +120,9 @@ a:hover {
 
 h1 {
   font-size: 54px; 
-  text-shadow: 0px 1px 1px rgba(0,0,0,0.4);
+}
+h3 {
+  text-align: center;
 }
 
 p, .textcontainer {
@@ -127,17 +135,32 @@ p, .textcontainer {
   max-width: 800px; 
   margin: 0 auto;
   overflow: auto; 
-  padding: 22px;
+  display: block;
+}
+
+.large-container {
+  overflow: auto;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
 }
 
 #welcome-name {
   text-align: center; 
-  border-bottom: 1px dashed #fff;
+  
 }
 
 #welcome-name h4 {margin: 6px;}
 
-#compatriots {padding: 22px; border-bottom: 1px dashed #fff;}
+#compatriots {
+  padding: 22px; 
+  border-bottom: 1px dashed #fff;
+  border-top: 1px dashed #fff;
+  -moz-column-count: 3;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 20px;
+}
 
 ul.nav {
   list-style: none; padding: 0px; 
@@ -155,8 +178,9 @@ ul.nav {
   list-style: none; 
   padding: 0px; 
   font-size: 12px;
+  margin: 0px;
 }
-.compatriots-list li {padding: 2px 0px;}
+.compatriots-list li {padding: 4px 0px;}
 
 .userdate {font-family: "Andale Mono"}
 .userdetail {font-weight: bold;}
