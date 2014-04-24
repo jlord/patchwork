@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 add eristemena.txt
+=======
+Hello this is eris ristemena
+>>>>>>> add-eristemena
