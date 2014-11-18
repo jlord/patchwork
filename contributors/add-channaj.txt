@@ -1,0 +1,8 @@
+Step: Create a new file
+
+Back to the text editor:
+
+Create a new file named "add-<USERNAME>.txt", where 'username' is your username. For instance, "add-jlord.txt".
+Then, just write your GitHub username in it, that's it and that's all. For instance, I'd type 'jlord'.
+Save this file in the 'contributors' folder in Patchwork: Patchwork/contributors/add-yourusername.txt
+Next, check in your changes!
