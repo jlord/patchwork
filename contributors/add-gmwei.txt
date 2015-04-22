@@ -1,0 +1,11 @@
+this is one test from gmwei
+
+https://github.com/gongmingwei/hello-world.git
+
+https://github.com/sunny5/nodeehz.git
+
+https://github.com/gongmingwei/patchwork
+
+would like to user node.js as the data broker for smart meter sensor and the database
+
+new line to see the git diff
