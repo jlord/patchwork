@@ -19,6 +19,11 @@ code {
   padding: 0px;
 }
 
+code.minor {
+  margin:10px;
+  padding: 0px;
+}
+
 /* Animation done by https://github.com/daneden */
 /* https://github.com/daneden/animate.css */
 
