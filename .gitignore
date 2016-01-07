@@ -1,0 +1,8 @@
+$ cat .gitignore
+
+.DS_Store
+.git
+.ls
+.npmrc
+node_modules
+*.log
