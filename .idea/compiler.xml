@@ -13,6 +13,7 @@
       <entry name="!?*.clj" />
       <entry name="!?*.aj" />
       <entry name="!?*.aaaaa" />
+      <entry name="!?*.bbbbb" />
     </wildcardResourcePatterns>
     <annotationProcessing>
       <profile default="true" name="Default" enabled="false">
