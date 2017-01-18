@@ -1,1 +1,9 @@
+<<<<<<< HEAD
 Roger-Lighthouse
+=======
+add-Roger-Lighthouse.txt
+
+Roger-Lighthouse
+
+Try this thing
+>>>>>>> add-Roger-Lighthouse
