@@ -24,4 +24,5 @@ If you're working through the challenges in [Git-it](http://www.github.com/jlord
 If you're contributing a patch to the Patchwork HTML page itself, make sure the branch name for the branch you create for your changes **does not** include your GitHub username. As a part of the Git-it workshop that uses this repository, users complete the challenge on pull requests with a branch that includes their username. In order to keep bug fixes separate from workshop completions -- don't use your username in your branch :)
 
     
+:x
 ### Thanks for Contributing! :octocat: :heart:
