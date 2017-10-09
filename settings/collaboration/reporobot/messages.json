@@ -1,0 +1,7 @@
+{
+  "antipattern_branch": "**Hello! The name of the branch with this Pull Request is not of the `add-USERNAME` pattern so I'm skipping reviewing it for the Git-it challenges.**\nIf you are completing the Git-it challenges, you'll need to close this Pull Request, rename your branch, push it to your fork of Patchwork on GitHub and then start a new Pull Request. Here's how to rename a branch and push it to GitHub from terminal:\n```bash\n$ git branch -m add-USERNAME\n$ git push origin add-USERNAME\n```",
+  "multi_files": "**Uh oh, I see too many files, there should be one:** `contributors/add-USERNAME`.\n\n- Delete the extra file on your computer.\n- Add and commit that change with these commands in terminal:\n```bash\n$ git add -A && git commit -m 'delete extra file'\n```\n- Then push those changes to your branch:\n```bash\n$ git push origin add-USERNAME\n```\n- Return to this page and close and then reopen the Pull Request so it is re-checked.",
+  "empty_file": "File is empty, try again!",
+  "bad_filename": "Filename is different than expected: `contributors/add-USERNAME.txt`. Close the pull request, rename your file or move it into the `contributors/` folder and try again!",
+  "bad_ascii": "Ascii art wasn't as expected, did something change? Close and re-open please."
+}
