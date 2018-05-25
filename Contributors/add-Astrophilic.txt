@@ -1,0 +1,3 @@
+This is a additional file added in a branch other than in master.
+It is just like working on a new feature.
+
