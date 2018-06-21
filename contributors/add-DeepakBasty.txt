@@ -1,2 +1,1 @@
-User-name   :   Deepak Basty
-Field	    :	Electronics
+username  :  DeepakBasty
