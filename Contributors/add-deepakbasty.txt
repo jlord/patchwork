@@ -1,3 +1,3 @@
-Username:-Deepak_Basty
-Field-Electronics
-Area of Intrest-Embedded System 
+Username   	:       Deepak_Basty
+Field      	:       Electronics
+Area of Intrest :	Embedded System 
