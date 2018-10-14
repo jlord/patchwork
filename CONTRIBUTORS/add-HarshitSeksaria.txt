@@ -1,0 +1,9 @@
+Hello World, This is Harshit Here.
+
+Well, The World outside knows me as DudeCoder.
+
+I'm an Enthusiastic Android Developer and a Geek!
+
+I'm playing with machines since 2012, became a Programmer in 2014 and C language as my first Programming language.
+
+Currently, I know Android Development, Web Development, c, c++, python(Including django, numpy, matplotlib), java, javascript, kotlin, html, css, xml, firebase.
