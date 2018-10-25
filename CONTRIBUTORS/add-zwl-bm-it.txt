@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-fucks bitches
-=======
-
->>>>>>> add-zwl-bm-it
+test
