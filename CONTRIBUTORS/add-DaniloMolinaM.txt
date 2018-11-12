@@ -1,6 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 DaniloMolinaM
 hola danilo, como estas
+=======
+DaniloMolinaM
+>>>>>>> dc0457121c8af7b254301daa856f8122d4f2e570
 =======
 DaniloMolinaM
 >>>>>>> dc0457121c8af7b254301daa856f8122d4f2e570
