@@ -1,7 +1,0 @@
-This is a list of the spanish translation typos
-
-Remote control: ordenadir -> ordenador
-
-Forks And Clones: cuente -> cuenta
-
-Forks And Clones: Derías -> Deberías
