@@ -1,0 +1,56 @@
+Central>enable
+Central#configure terminal
+Central(config)#interface G0/0
+Central(config-if)#no ip address
+Central(config-if)#no shutdown
+Central(config-if)#exit
+Central(config)#interface G0/0.15
+Central(config-subif)#
+Central(config-subif)#encapsulation dot1q 15
+Central(config-subif)#ip address 10.10.10.161 255.255.255.224
+Central(config-subif)#exit
+Central(config)#interface G0/0.30
+Central(config-subif)#
+Central(config-subif)#encapsulation dot1q 30
+Central(config-subif)#ip address 10.10.10.193 255.255.255.192
+Central(config-subif)#exit
+Central(config)#interface G0/0.45
+Central(config-subif)#encapsulation dot1q 45 native 
+Central(config-subif)#ip address 10.10.10.129 255.255.255.240
+Central(config-subif)#exit
+Central(config)#interface G0/0.60
+Central(config-subif)#encapsulation dot1q 60
+Central(config-subif)#ip address 10.10.10.145 255.255.255.240
+Central(config-subif)#exit
+Central(config)#ip dhcp excluded-address 10.10.10.193
+Central(config)#ip dhcp pool LAN
+Central(dhcp-config)#network 10.10.10.192 255.255.255.192
+Central(dhcp-config)#default-router 10.10.10.193
+Central(dhcp-config)#exit
+Central(config)#router ospf 1
+Central(config-router)#router-id 1.1.1.1
+Central(config-router)#network 10.10.10.0 0.0.0.255 area 0
+Central(config-router)#passive-interface G0/0
+Central(config-router)#passive-interface S0/1/0
+Central(config-router)#default-information originate
+Central(config-router)#exit
+Central(config)#ip route 0.0.0.0 0.0.0.0 S0/1/0
+Central(config)#access-list 1 permit 10.10.10.0 0.0.0.255
+Central(config)#ip nat pool NATPOOL 64.100.32.56 64.100.32.57 netmask 255.255.255.252
+Central(config)#ip nat inside source list 1 pool NATPOOL overload
+Central(config)#ip nat inside source static 10.10.10.162 64.100.32.58
+Central(config)#interface G0/0.15
+Central(config-subif)#ip nat inside
+Central(config-subif)#exit
+Central(config)#interface G0/0.30
+Central(config-subif)#ip nat inside
+Central(config-subif)#exit
+Central(config)#interface S0/0/0
+Central(config-if)#ip nat inside
+Central(config-if)#exit
+Central(config)#interface S0/0/1
+Central(config-if)#ip nat inside
+Central(config-if)#exit
+Central(config)#interface S0/1/0
+Central(config-if)#ip nat outside
+Central(config-if)#exit
