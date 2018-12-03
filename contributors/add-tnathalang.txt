@@ -1,2 +1,2 @@
-add-tnathalang.txt
+tnathalang.txt
 tnathalang
