@@ -1,2 +1,1 @@
-add-SzymonKrynski.txt
-SzymonKrynski
+add-SzymonKrynski.txt SzymonKrynski
