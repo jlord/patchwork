@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 kacsokz
 kacsokz
 Try again
+=======
+kacsokz
+>>>>>>> add-kacsokz
