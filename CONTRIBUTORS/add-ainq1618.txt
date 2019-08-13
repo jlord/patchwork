@@ -1,2 +1,0 @@
-
-This is a readme text document file added in branch created from fork of jlord's pathwork.
