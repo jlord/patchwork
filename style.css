@@ -4,7 +4,7 @@ body {
   padding: 30px 0px;
   color: #fff;
   background: #e7df6e;
-  border: 30px solid #fff;
+  border: 30px solid rgb(0, 0, 0);
 }
 
 pre {
