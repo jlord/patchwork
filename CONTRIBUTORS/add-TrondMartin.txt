@@ -1,2 +1,0 @@
-Then, just write your GitHub username in it, that's it and that's all. For instance, I'd type 'jlord'.
-Added another line in the branch TrompasBranch
