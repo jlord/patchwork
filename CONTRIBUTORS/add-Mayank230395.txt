@@ -1,0 +1,8 @@
+%dw 1.0
+%output application/java
+---
+[{
+	field: "Rescheduled_Date",
+	error: "invalid_value",
+	description: "Invalid Rescheduled_Date"
+}]
