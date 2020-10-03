@@ -1,3 +1,0 @@
-Hello World!
-
-J'apprends comment tirer et pousser des révisions sur Git-hub.
