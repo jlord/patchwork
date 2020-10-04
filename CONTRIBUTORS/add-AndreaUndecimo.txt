@@ -1,0 +1,2 @@
+Hey there, this is a file I am creating on a branch
+Branches are used to work on side-projects without affecting the main project, which is on the master branch
