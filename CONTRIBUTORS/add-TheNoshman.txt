@@ -1,6 +1,1 @@
-<<<<<<< Updated upstream
-TheNoshman
-=======
-TheNoshman
-A few more changes
->>>>>>> Stashed changes
+On branch the noshman using the noshman.txt
