@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 Tej Hunjan
 hmm
+=======
+TejHunjan
+What's going on?
+>>>>>>> b7c7d69cf3edff72749fc1350fdd07cd2f4507d4
