@@ -1,3 +1,0 @@
-Learning Git
-Making some changes
-more changes
