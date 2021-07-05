@@ -3,9 +3,10 @@ body {
   margin: 0 auto;
   padding: 30px 0px;
   color: #fff;
-  background: #0087ff;
   border: 30px solid #fff;
-}
+  animation-duration:example 15s ease infinite;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);}
+
 
 pre {
   color: #fff;
@@ -105,11 +106,13 @@ a, a:visited, a:active {
   text-decoration: none;
   -webkit-transition: color 0.2s ease;
           transition: color 0.2s ease;
-  font-weight: 700;
+  font-weight:400;
 }
 
 a:hover {
+	font-family:'sans-serif'; 
   color: #eee4ee;
+  color:rgba(255,250,2,1);
   padding-bottom: 1px;
   border-bottom: 1px solid #eee4ee;
 }
@@ -169,8 +172,9 @@ ul.nav {
 .nav li {
   display: inline;
   padding-right: 8px;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 600;
+  background:red;
 }
 
 .compatriots-list {
