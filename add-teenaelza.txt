@@ -1,0 +1,1 @@
+This is a new file created to check how a pull request works.
