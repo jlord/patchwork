@@ -1,1 +1,2 @@
 This is my first file.
+Now edited.
