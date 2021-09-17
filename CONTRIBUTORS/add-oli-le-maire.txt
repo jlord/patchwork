@@ -1,6 +1,3 @@
 oli le maire
-<<<<<<< HEAD
 
-has made an update on the gh-branch of his own remote
-=======
->>>>>>> f2d9457bdecad7a0ce29c680149480489d7cc743
+has made an update on the gh-branch of his own remote?...
