@@ -1,0 +1,10 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.COOKIEJAR_SUPPORTED = exports.COOKIEJAR_SUPPORT_LOCAL = void 0;
+const COOKIEJAR_SUPPORT_LOCAL = Symbol('COOKIEJAR_SUPPORT_LOCAL');
+exports.COOKIEJAR_SUPPORT_LOCAL = COOKIEJAR_SUPPORT_LOCAL;
+const COOKIEJAR_SUPPORTED = Symbol('COOKIEJAR_SUPPORTED');
+exports.COOKIEJAR_SUPPORTED = COOKIEJAR_SUPPORTED;
