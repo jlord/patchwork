@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 lets just add something there
+=======
+lets see if its going to work with the file in this folder 
+>>>>>>> 2617a8fee4efd9e3797d7344876fbec311ec67dc
