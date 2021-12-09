@@ -1,6 +1,0 @@
-Welcome to Git-it!
-Step-by-step instructions for each of the challenges in the Git-it workshop. View the Traditional Chinese version.
-
-This guide comes with Git-it when you install it so it works offline and you can use it as a resource at anytime (see the instructions when you select a challenge in terminal). Have fun!
-
-This guide explain all scenarios.
