@@ -1,2 +1,1 @@
-echo is a shell builtin
 omerffaruk
