@@ -1,26 +1,4 @@
-body {
-  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
-  margin: 0 auto;
-  padding: 30px 0px;
-  color: #fff;
-  background: #0087ff;
-  border: 30px solid #fff;
-}
-
-pre {
-  color: #fff;
-  text-shadow: 0px 1px 1px rgba(0,0,0,0.4);
-  padding-bottom: 20px;
-  font-size: 11px;
-}
-
-code {
-  margin: 0px;
-  padding: 0px;
-}
-
-/* Animation done by https://github.com/daneden */
-/* https://github.com/daneden/animate.css */
+a
 
 #user-name {
  width: 100%;
