@@ -1,2 +1,4 @@
 Adi-df
-suma = 4
+suma = 2 + 4
+console.log (suma)
+
