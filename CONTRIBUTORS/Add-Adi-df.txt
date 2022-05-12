@@ -2,3 +2,4 @@ Adi-df
 suma = 2 + 4
 console.log (suma)
 
+console.log("Buena")
