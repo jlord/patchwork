@@ -1,2 +1,0 @@
-add-VoliDyrus.txt
-VoliDyrus
