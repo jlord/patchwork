@@ -1,1 +1,1 @@
-stan-sk.txt
+Stan-sk
