@@ -1,1 +1,5 @@
+<<<<<<< HEAD
+Micleusanu Veaceslav
+=======
 MicleusanuVeaceslav
+>>>>>>> b7ee5abfb9ed009b1dcb449835dfd822bd322b20
