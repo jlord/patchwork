@@ -1,0 +1,15 @@
+copy con add-BrendaKarol.txt
+BrendaKarol
+cd  Patchwork/contributors/add-yourusername.txt
+git status
+git add contributors/add-BrendaKarol.txt
+git commit -m "mensaje de commit"
+git push origin BrendaKarol
+git push origin BrendaKarol
+copy con BrendaKarol.txt
+
+
+
+
+
+
