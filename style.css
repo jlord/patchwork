@@ -28,7 +28,7 @@ code {
 
 @-webkit-keyframes swing {
   20% {
-    -webkit-transform: rotate(15deg);
+    -webkit-transform: rotate(13deg);
             transform: rotate(15deg);
   }
 
