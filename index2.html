@@ -1,0 +1,364 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="patchwork, git, github, open source">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Patchwork: Git, GitHub and the Pursuit of Open Source</title>
+    <link rel="shortcut icon" href="https://raw2.github.com/jlord/patchwork/gh-pages/favicon.png"/>
+    <link href='style.css' rel='stylesheet'>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600,700,900' rel='stylesheet' type='text/css'>
+    <style type="text/css">
+      body {
+  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+  margin: 0 auto;
+  padding: 30px 0px;
+  color: #fff;
+   background-image: linear-gradient(red, blue,yellow);
+  border: 30px solid #fff;
+}
+
+pre {
+  color: #fff;
+  text-shadow: 0px 1px 1px rgba(0,0,0,0.4);
+  padding-bottom: 20px;
+  font-size: 11px;
+}
+
+code {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Animation done by https://github.com/daneden */
+/* https://github.com/daneden/animate.css */
+
+#user-name {
+ width: 100%;
+}
+
+@-webkit-keyframes swing {
+  20% {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+
+  40% {
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+  }
+
+  60% {
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+  }
+
+  80% {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+@keyframes swing {
+  20% {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+
+  40% {
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+  }
+
+  60% {
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+  }
+
+  80% {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+.swing {
+  -webkit-transform-origin: top center;
+      -ms-transform-origin: top center;
+          transform-origin: top center;
+  -webkit-animation-name: swing;
+          animation-name: swing;
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+h1, h2, h3, h5, h6 {font-weight: 300; line-height: 1.2em;}
+h4 {font-weight: 700;}
+
+em {font-family: Georgia;}
+
+a, a:visited, a:active {
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: color 0.2s ease;
+          transition: color 0.2s ease;
+  font-weight: 700;
+}
+
+a:hover {
+  color: #eee4ee;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #eee4ee;
+}
+
+h1 {
+  font-size: 54px;
+}
+h3 {
+  text-align: center;
+}
+
+p, .textcontainer {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: auto;
+  display: block;
+  line-height: 1.2em;
+}
+
+.large-container {
+  overflow: hidden;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#welcome-name {
+  text-align: center;
+
+}
+
+#welcome-name h4 {margin: 6px;}
+
+#compatriots {
+  padding: 22px 0;
+  border-bottom: 1px dashed #fff;
+  border-top: 1px dashed #fff;
+  -webkit-column-count: 3;
+     -moz-column-count: 3;
+          column-count: 3;
+  -webkit-column-gap: 20px;
+     -moz-column-gap: 20px;
+          column-gap: 20px;
+}
+
+ul.nav {
+  list-style: none; padding: 0px;
+  margin: 0px;
+}
+
+.nav li {
+  display: inline;
+  padding-right: 8px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.compatriots-list {
+  list-style: none;
+  padding: 0px;
+  font-size: 12px;
+  margin: 0px;
+}
+.compatriots-list li {padding: 4px 0px;}
+
+.userdate {font-family: "Andale Mono"; white-space: nowrap;}
+.userdetail {font-weight: bold;}
+
+.textcontainer {
+  float: left;
+  display: inline-block;
+}
+
+.halvsies {
+  max-width: 48%;
+  float: left;
+}
+
+.halvsies:nth-child(2n+1) {
+  padding-right: 28px;
+}
+
+ul.what-next-list {
+  padding-left: 17px;
+}
+
+.what-next-list li {
+  padding-bottom: 6px;
+  padding-left: 0px;
+
+}
+
+.totalwow {
+  font-size: 88px;
+  font-weight: 600;
+  padding: 28px 0;
+}
+
+#user-name span {
+ color: #c5d6f1;
+ -webkit-animation: blink 1s infinite linear;
+         animation: blink 1s infinite linear;
+}
+
+@-webkit-keyframes blink {
+  0% { text-shadow: none; }
+  79% { text-shadow: none; }
+  80% {
+  text-shadow: 0 0 5px #c5d6f1,
+    0 0 5px #c5d6f1,
+    0 0 5px #c5d6f1,
+    0 0 5px #c5d6f1,
+    0 0 5px #c5d6f1,
+    0 0 5px #c5d6f1,
+    0 0 10px #c5d6f1,
+    0 0 10px #c5d6f1,
+    0 0 15px #c5d6f1,
+    0 0 15px #c5d6f1,
+    0 0 15px #c5d6f1,
+    0 0 15px #c5d6f1,
+    0 0 15px #c5d6f1,
+    0 0 15px #c5d6f1;
+  }
+  100% {
+  text-shadow: 0 0 5px #c5d6f1,
+    0 0 5px #c5d6f1,
+    0 0 5px #c5d6f1,
+    0 0 5px #c5d6f1,
+    0 0 5px #c5d6f1,
+    0 0 5px #c5d6f1,
+    0 0 10px #c5d6f1,
+    0 0 10px #c5d6f1,
+    0 0 15px #c5d6f1,
+    0 0 15px #c5d6f1,
+    0 0 15px #c5d6f1,
+    0 0 15px #c5d6f1,
+    0 0 15px #c5d6f1,
+    0 0 15px #c5d6f1;
+  }
+}
+
+@keyframes blink {
+  0% { text-shadow: none; }
+  79% { text-shadow: none; }
+  80% {
+  text-shadow: 0 0 5px #c5d6f1,
+    0 0 5px #c5d6f1,
+    0 0 5px #c5d6f1,
+    0 0 5px #c5d6f1,
+    0 0 5px #c5d6f1,
+    0 0 5px #c5d6f1,
+    0 0 10px #c5d6f1,
+    0 0 10px #c5d6f1,
+    0 0 15px #c5d6f1,
+    0 0 15px #c5d6f1,
+    0 0 15px #c5d6f1,
+    0 0 15px #c5d6f1,
+    0 0 15px #c5d6f1,
+    0 0 15px #c5d6f1;
+  }
+  100% {
+  text-shadow: 0 0 5px #c5d6f1,
+    0 0 5px #c5d6f1,
+    0 0 5px #c5d6f1,
+    0 0 5px #c5d6f1,
+    0 0 5px #c5d6f1,
+    0 0 5px #c5d6f1,
+    0 0 10px #c5d6f1,
+    0 0 10px #c5d6f1,
+    0 0 15px #c5d6f1,
+    0 0 15px #c5d6f1,
+    0 0 15px #c5d6f1,
+    0 0 15px #c5d6f1,
+    0 0 15px #c5d6f1,
+    0 0 15px #c5d6f1;
+  }
+}
+    </style>
+  </head>
+  <body>
+   <div class="large-container">
+    <div id="welcome-name">
+      <h1>Congrats, you did it!</h1>
+      <div id="user-name" class="swing animated" style="display: block;">
+        <pre><code>                    ___                   
+     _____         /\__\                  
+    /::\  \       /:/ _/_         ___     
+   /:/\:\  \     /:/ /\  \       /\__\    
+  /:/ /::\__\   /:/ /::\  \     /:/  /    
+ /:/_/:/\:|__| /:/__\/\:\__\   /:/__/     
+ \:\/:/ /:/  / \:\  \ /:/  /  /::\  \     
+  \::/_/:/  /   \:\  /:/  /  /:/\:\  \    
+   \:\/:/  /     \:\/:/  /   \/__\:\  \   
+    \::/  /       \::/  /         \:\__\  
+     \/__/         \/__/           \/__/  
+</code></pre>
+      </div>
+    </div>
+  </div>
+    <div class="container">
+      <h2 style="text-align: center;">You <strong>pull request</strong> with the best of 'em.</h2>
+      <h3>You now know alternate meanings for the words <strong>fork</strong> and <strong>branch</strong> and you've <strong>collaborated</strong> with someone (or robot) elsewhere.  Below are the <strong>last 100</strong> to have completed Git-it.</h3>
+
+      <div id="compatriots">
+        <ul class="compatriots-list">
+          <li><span class="userdetail"><a href="https://www.github.com/b000gt" target="_blank">@b000gt</a></span> <span class="userdate">2019-10-04T15:38:54Z</span></li><li><span class="userdetail"><a href="https://www.github.com/rogomichael" target="_blank">@rogomichael</a></span> <span class="userdate">2019-10-04T14:40:34Z</span></li><li><span class="userdetail"><a href="https://www.github.com/JeffGebert" target="_blank">@JeffGebert</a></span> <span class="userdate">2019-10-04T14:22:34Z</span></li><li><span class="userdetail"><a href="https://www.github.com/arekisanda" target="_blank">@arekisanda</a></span> <span class="userdate">2019-10-04T12:49:01Z</span></li><li><span class="userdetail"><a href="https://www.github.com/seliane" target="_blank">@seliane</a></span> <span class="userdate">2019-10-04T12:13:26Z</span></li><li><span class="userdetail"><a href="https://www.github.com/Elhad123" target="_blank">@Elhad123</a></span> <span class="userdate">2019-10-04T11:28:05Z</span></li><li><span class="userdetail"><a href="https://www.github.com/beni1000" target="_blank">@beni1000</a></span> <span class="userdate">2019-10-04T09:11:10Z</span></li><li><span class="userdetail"><a href="https://www.github.com/carolinaviero" target="_blank">@carolinaviero</a></span> <span class="userdate">2019-10-04T09:10:59Z</span></li><li><span class="userdetail"><a href="https://www.github.com/AninaB" target="_blank">@AninaB</a></span> <span class="userdate">2019-10-04T09:10:39Z</span></li><li><span class="userdetail"><a href="https://www.github.com/FunkyFabe" target="_blank">@FunkyFabe</a></span> <span class="userdate">2019-10-04T09:05:20Z</span></li><li><span class="userdetail"><a href="https://www.github.com/Yunnigg" target="_blank">@Yunnigg</a></span> <span class="userdate">2019-10-04T08:55:17Z</span></li><li><span class="userdetail"><a href="https://www.github.com/ResistCS" target="_blank">@ResistCS</a></span> <span class="userdate">2019-10-04T08:53:15Z</span></li><li><span class="userdetail"><a href="https://www.github.com/yV11" target="_blank">@yV11</a></span> <span class="userdate">2019-10-04T08:48:24Z</span></li><li><span class="userdetail"><a href="https://www.github.com/catreadme" target="_blank">@catreadme</a></span> <span class="userdate">2019-10-04T08:41:53Z</span></li><li><span class="userdetail"><a href="https://www.github.com/DNS320" target="_blank">@DNS320</a></span> <span class="userdate">2019-10-04T07:44:16Z</span></li><li><span class="userdetail"><a href="https://www.github.com/AaronStudi" target="_blank">@AaronStudi</a></span> <span class="userdate">2019-10-04T07:18:59Z</span></li><li><span class="userdetail"><a href="https://www.github.com/bris1991" target="_blank">@bris1991</a></span> <span class="userdate">2019-10-04T07:15:09Z</span></li><li><span class="userdetail"><a href="https://www.github.com/ilgiardino" target="_blank">@ilgiardino</a></span> <span class="userdate">2019-10-04T07:13:53Z</span></li><li><span class="userdetail"><a href="https://www.github.com/luthda" target="_blank">@luthda</a></span> <span class="userdate">2019-10-04T06:56:43Z</span></li><li><span class="userdetail"><a href="https://www.github.com/SinackTime" target="_blank">@SinackTime</a></span> <span class="userdate">2019-10-04T03:26:57Z</span></li><li><span class="userdetail"><a href="https://www.github.com/gingerIZ" target="_blank">@gingerIZ</a></span> <span class="userdate">2019-10-04T02:21:10Z</span></li><li><span class="userdetail"><a href="https://www.github.com/jmgasner" target="_blank">@jmgasner</a></span> <span class="userdate">2019-10-04T01:09:13Z</span></li><li><span class="userdetail"><a href="https://www.github.com/Redtef" target="_blank">@Redtef</a></span> <span class="userdate">2019-10-03T23:30:12Z</span></li><li><span class="userdetail"><a href="https://www.github.com/Adoox" target="_blank">@Adoox</a></span> <span class="userdate">2019-10-03T22:38:27Z</span></li><li><span class="userdetail"><a href="https://www.github.com/benjoFFF" target="_blank">@benjoFFF</a></span> <span class="userdate">2019-10-03T16:52:15Z</span></li><li><span class="userdetail"><a href="https://www.github.com/D0C702WH0" target="_blank">@D0C702WH0</a></span> <span class="userdate">2019-10-03T14:15:38Z</span></li><li><span class="userdetail"><a href="https://www.github.com/bemanne" target="_blank">@bemanne</a></span> <span class="userdate">2019-10-03T13:49:05Z</span></li><li><span class="userdetail"><a href="https://www.github.com/AprilCastaneda" target="_blank">@AprilCastaneda</a></span> <span class="userdate">2019-10-03T07:37:17Z</span></li><li><span class="userdetail"><a href="https://www.github.com/SGParikh" target="_blank">@SGParikh</a></span> <span class="userdate">2019-10-03T02:01:22Z</span></li><li><span class="userdetail"><a href="https://www.github.com/jmar53" target="_blank">@jmar53</a></span> <span class="userdate">2019-10-03T01:53:35Z</span></li><li><span class="userdetail"><a href="https://www.github.com/AmirDuka" target="_blank">@AmirDuka</a></span> <span class="userdate">2019-10-03T01:53:23Z</span></li><li><span class="userdetail"><a href="https://www.github.com/DJCrossman" target="_blank">@DJCrossman</a></span> <span class="userdate">2019-10-03T01:53:10Z</span></li><li><span class="userdetail"><a href="https://www.github.com/ILamija" target="_blank">@ILamija</a></span> <span class="userdate">2019-10-03T01:10:52Z</span></li><li><span class="userdetail"><a href="https://www.github.com/Ajas11" target="_blank">@Ajas11</a></span> <span class="userdate">2019-10-03T00:33:39Z</span></li><li><span class="userdetail"><a href="https://www.github.com/Zoopsoup" target="_blank">@Zoopsoup</a></span> <span class="userdate">2019-10-03T00:10:25Z</span></li><li><span class="userdetail"><a href="https://www.github.com/jblohn-web200" target="_blank">@jblohn-web200</a></span> <span class="userdate">2019-10-02T23:01:52Z</span></li><li><span class="userdetail"><a href="https://www.github.com/nermin2609" target="_blank">@nermin2609</a></span> <span class="userdate">2019-10-02T22:16:18Z</span></li><li><span class="userdetail"><a href="https://www.github.com/cobo-m" target="_blank">@cobo-m</a></span> <span class="userdate">2019-10-02T21:50:33Z</span></li><li><span class="userdetail"><a href="https://www.github.com/agaribovic" target="_blank">@agaribovic</a></span> <span class="userdate">2019-10-02T21:18:23Z</span></li><li><span class="userdetail"><a href="https://www.github.com/AlmirTabic" target="_blank">@AlmirTabic</a></span> <span class="userdate">2019-10-02T21:09:39Z</span></li><li><span class="userdetail"><a href="https://www.github.com/tevlevka" target="_blank">@tevlevka</a></span> <span class="userdate">2019-10-02T20:40:20Z</span></li><li><span class="userdetail"><a href="https://www.github.com/A-Pos-DJ" target="_blank">@A-Pos-DJ</a></span> <span class="userdate">2019-10-02T20:11:53Z</span></li><li><span class="userdetail"><a href="https://www.github.com/AmerMusic" target="_blank">@AmerMusic</a></span> <span class="userdate">2019-10-02T20:03:40Z</span></li><li><span class="userdetail"><a href="https://www.github.com/HarunSmaka" target="_blank">@HarunSmaka</a></span> <span class="userdate">2019-10-02T20:03:01Z</span></li><li><span class="userdetail"><a href="https://www.github.com/MrTolja" target="_blank">@MrTolja</a></span> <span class="userdate">2019-10-02T19:38:46Z</span></li><li><span class="userdetail"><a href="https://www.github.com/AlemHodzic" target="_blank">@AlemHodzic</a></span> <span class="userdate">2019-10-02T19:32:58Z</span></li><li><span class="userdetail"><a href="https://www.github.com/megamikers" target="_blank">@megamikers</a></span> <span class="userdate">2019-10-02T18:36:31Z</span></li><li><span class="userdetail"><a href="https://www.github.com/grcosta95" target="_blank">@grcosta95</a></span> <span class="userdate">2019-10-02T18:02:59Z</span></li><li><span class="userdetail"><a href="https://www.github.com/Magbulam" target="_blank">@Magbulam</a></span> <span class="userdate">2019-10-02T18:01:18Z</span></li><li><span class="userdetail"><a href="https://www.github.com/ZeForgeAcademy" target="_blank">@ZeForgeAcademy</a></span> <span class="userdate">2019-10-02T17:42:06Z</span></li><li><span class="userdetail"><a href="https://www.github.com/ElvedinS96" target="_blank">@ElvedinS96</a></span> <span class="userdate">2019-10-02T17:20:10Z</span></li><li><span class="userdetail"><a href="https://www.github.com/amikolenda" target="_blank">@amikolenda</a></span> <span class="userdate">2019-10-02T16:56:04Z</span></li><li><span class="userdetail"><a href="https://www.github.com/derviswebdev" target="_blank">@derviswebdev</a></span> <span class="userdate">2019-10-02T16:47:54Z</span></li><li><span class="userdetail"><a href="https://www.github.com/ame1982" target="_blank">@ame1982</a></span> <span class="userdate">2019-10-02T16:45:44Z</span></li><li><span class="userdetail"><a href="https://www.github.com/n3jra" target="_blank">@n3jra</a></span> <span class="userdate">2019-10-02T16:13:36Z</span></li><li><span class="userdetail"><a href="https://www.github.com/AlmaGapa" target="_blank">@AlmaGapa</a></span> <span class="userdate">2019-10-02T15:29:57Z</span></li><li><span class="userdetail"><a href="https://www.github.com/m3nsur1" target="_blank">@m3nsur1</a></span> <span class="userdate">2019-10-02T14:39:21Z</span></li><li><span class="userdetail"><a href="https://www.github.com/adisdurmis" target="_blank">@adisdurmis</a></span> <span class="userdate">2019-10-02T12:54:14Z</span></li><li><span class="userdetail"><a href="https://www.github.com/Muhamed112" target="_blank">@Muhamed112</a></span> <span class="userdate">2019-10-02T12:31:18Z</span></li><li><span class="userdetail"><a href="https://www.github.com/bambooch" target="_blank">@bambooch</a></span> <span class="userdate">2019-10-02T12:11:17Z</span></li><li><span class="userdetail"><a href="https://www.github.com/YoshiTikari" target="_blank">@YoshiTikari</a></span> <span class="userdate">2019-10-02T11:54:06Z</span></li><li><span class="userdetail"><a href="https://www.github.com/Skomorac" target="_blank">@Skomorac</a></span> <span class="userdate">2019-10-02T11:38:41Z</span></li><li><span class="userdetail"><a href="https://www.github.com/GoranPopovic77" target="_blank">@GoranPopovic77</a></span> <span class="userdate">2019-10-02T10:17:22Z</span></li><li><span class="userdetail"><a href="https://www.github.com/ffalknerHSR" target="_blank">@ffalknerHSR</a></span> <span class="userdate">2019-10-02T09:22:44Z</span></li><li><span class="userdetail"><a href="https://www.github.com/teodem" target="_blank">@teodem</a></span> <span class="userdate">2019-10-02T08:57:10Z</span></li><li><span class="userdetail"><a href="https://www.github.com/seinol" target="_blank">@seinol</a></span> <span class="userdate">2019-10-02T08:55:08Z</span></li><li><span class="userdetail"><a href="https://www.github.com/bachtoldi" target="_blank">@bachtoldi</a></span> <span class="userdate">2019-10-02T08:50:20Z</span></li><li><span class="userdetail"><a href="https://www.github.com/LorisKeller" target="_blank">@LorisKeller</a></span> <span class="userdate">2019-10-02T08:44:28Z</span></li><li><span class="userdetail"><a href="https://www.github.com/grizzly96" target="_blank">@grizzly96</a></span> <span class="userdate">2019-10-02T08:42:46Z</span></li><li><span class="userdetail"><a href="https://www.github.com/leonard97" target="_blank">@leonard97</a></span> <span class="userdate">2019-10-02T08:32:42Z</span></li><li><span class="userdetail"><a href="https://www.github.com/RishabNaik" target="_blank">@RishabNaik</a></span> <span class="userdate">2019-10-02T08:21:37Z</span></li><li><span class="userdetail"><a href="https://www.github.com/ZeForgeAcademy" target="_blank">@ZeForgeAcademy</a></span> <span class="userdate">2019-10-02T07:48:43Z</span></li><li><span class="userdetail"><a href="https://www.github.com/PhilLikesGit" target="_blank">@PhilLikesGit</a></span> <span class="userdate">2019-10-02T07:45:27Z</span></li><li><span class="userdetail"><a href="https://www.github.com/Stoffi17" target="_blank">@Stoffi17</a></span> <span class="userdate">2019-10-02T07:40:40Z</span></li><li><span class="userdetail"><a href="https://www.github.com/shafner-hsr" target="_blank">@shafner-hsr</a></span> <span class="userdate">2019-10-02T07:30:01Z</span></li><li><span class="userdetail"><a href="https://www.github.com/cbisig-hsr" target="_blank">@cbisig-hsr</a></span> <span class="userdate">2019-10-02T07:09:16Z</span></li><li><span class="userdetail"><a href="https://www.github.com/a-lesi" target="_blank">@a-lesi</a></span> <span class="userdate">2019-10-02T06:57:17Z</span></li><li><span class="userdetail"><a href="https://www.github.com/rereahcs" target="_blank">@rereahcs</a></span> <span class="userdate">2019-10-02T06:53:48Z</span></li><li><span class="userdetail"><a href="https://www.github.com/faragos" target="_blank">@faragos</a></span> <span class="userdate">2019-10-02T06:45:51Z</span></li><li><span class="userdetail"><a href="https://www.github.com/MirzaSikiric" target="_blank">@MirzaSikiric</a></span> <span class="userdate">2019-10-02T04:58:14Z</span></li><li><span class="userdetail"><a href="https://www.github.com/amaryca" target="_blank">@amaryca</a></span> <span class="userdate">2019-10-02T02:37:02Z</span></li><li><span class="userdetail"><a href="https://www.github.com/JordiValverde" target="_blank">@JordiValverde</a></span> <span class="userdate">2019-10-02T01:08:59Z</span></li><li><span class="userdetail"><a href="https://www.github.com/Hariscoding" target="_blank">@Hariscoding</a></span> <span class="userdate">2019-10-02T00:14:46Z</span></li><li><span class="userdetail"><a href="https://www.github.com/Kobara8" target="_blank">@Kobara8</a></span> <span class="userdate">2019-10-01T22:34:47Z</span></li><li><span class="userdetail"><a href="https://www.github.com/Vukory" target="_blank">@Vukory</a></span> <span class="userdate">2019-10-01T21:41:21Z</span></li><li><span class="userdetail"><a href="https://www.github.com/Halke" target="_blank">@Halke</a></span> <span class="userdate">2019-10-01T20:50:05Z</span></li><li><span class="userdetail"><a href="https://www.github.com/benijamin" target="_blank">@benijamin</a></span> <span class="userdate">2019-10-01T19:18:46Z</span></li><li><span class="userdetail"><a href="https://www.github.com/lagge315" target="_blank">@lagge315</a></span> <span class="userdate">2019-10-01T18:36:30Z</span></li><li><span class="userdetail"><a href="https://www.github.com/gawelx" target="_blank">@gawelx</a></span> <span class="userdate">2019-10-01T18:13:12Z</span></li><li><span class="userdetail"><a href="https://www.github.com/danielr515" target="_blank">@danielr515</a></span> <span class="userdate">2019-10-01T16:50:25Z</span></li><li><span class="userdetail"><a href="https://www.github.com/gervaish" target="_blank">@gervaish</a></span> <span class="userdate">2019-10-01T16:46:53Z</span></li><li><span class="userdetail"><a href="https://www.github.com/jdomingo00" target="_blank">@jdomingo00</a></span> <span class="userdate">2019-10-01T16:41:39Z</span></li><li><span class="userdetail"><a href="https://www.github.com/developer-ako" target="_blank">@developer-ako</a></span> <span class="userdate">2019-10-01T16:34:53Z</span></li><li><span class="userdetail"><a href="https://www.github.com/sehaelvir" target="_blank">@sehaelvir</a></span> <span class="userdate">2019-10-01T16:28:31Z</span></li><li><span class="userdetail"><a href="https://www.github.com/Prescise" target="_blank">@Prescise</a></span> <span class="userdate">2019-10-01T15:18:57Z</span></li><li><span class="userdetail"><a href="https://www.github.com/arcrsanchez" target="_blank">@arcrsanchez</a></span> <span class="userdate">2019-10-01T15:18:13Z</span></li><li><span class="userdetail"><a href="https://www.github.com/42void" target="_blank">@42void</a></span> <span class="userdate">2019-10-01T14:02:13Z</span></li><li><span class="userdetail"><a href="https://www.github.com/korotky-sasha" target="_blank">@korotky-sasha</a></span> <span class="userdate">2019-10-01T12:36:37Z</span></li><li><span class="userdetail"><a href="https://www.github.com/abanoral" target="_blank">@abanoral</a></span> <span class="userdate">2019-10-01T09:20:40Z</span></li><li><span class="userdetail"><a href="https://www.github.com/mrconer" target="_blank">@mrconer</a></span> <span class="userdate">2019-10-01T12:22:37Z</span></li>
+        </ul>
+      </div>
+
+      <div class="textcontainer">
+        <div id="about" class="halvsies">
+          <h4>That's not All!</h4>
+          <div class="totalwow">23,356</div>
+          <p>fine humans have completed <a href="https://www.github.com/jlord/git-it" target="_blank">Git-it</a>, an open source app for learning Git and GitHub.</p> <p>The <a href="https://www.github.com/jlord/git-it" target="_blank">Git-it</a> challenges are self directed so one can do it on their own, but it also makes for a great <a href="http://nodeschool.io/" target="_blank">nodeschool.io</a> workshop.</p>
+        </div>
+
+        <div id="next" class="halvsies">
+          <h4>What next?</h4>
+          <p>Don't stop now, keep going! Here are some ideas for what to work on next.</p>
+          <ul class="what-next-list">
+            <li>Make a repository on GitHub  named 'ghusername.github.io' and fill it with web site files. GitHub will host for free at the same address: ghusername.github.io. <a href="https://pages.github.com" target="_blank">Learn more</a>.</li>
+            <li>Create a repository and open an issue to make a <a href="https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments" target="_blank">to-do list</a>.</li>
+            <li>Find interesting open source projects to work with in <a href="https://www.github.com/explore" target="_blank">Explore</a>.</li>
+            <li>Checkout the GitHub <a href="https://guides.github.com/activities/hello-world">Hello World Guide</a> for more GitHub basics.</li>
+            <li>Fork an existing site to get your own up and runing: <a href="http://jlord.us/forkngo" target="_blank">Fork-n-go</a>.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script>
+      var text = document.querySelector('#user-name code').innerHTML;text = text.replace(/:/g, '<span>:</span>');document.querySelector('#user-name code').innerHTML = text;
+    </script>
+  </body>
+</html>
