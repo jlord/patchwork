@@ -1,8 +1,1 @@
-I learned today that branches aren't just for birds,
-and the C not just for fish,
-Cats are useful for looking inside Penguins,
-Jupyter's Notebooks are the best to study from,
-Pythons hatch from the Shell or on Prompt,
-and I order Java only during an Eclipse.
-
-Git-it?
+CorbanPendrak
