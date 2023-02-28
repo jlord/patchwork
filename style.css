@@ -26,6 +26,12 @@ code {
  width: 100%;
 }
 
+.happy{
+  background-color: cyan;
+  color: blue;
+  font-weight: 200;
+}
+
 @-webkit-keyframes swing {
   20% {
     -webkit-transform: rotate(15deg);
