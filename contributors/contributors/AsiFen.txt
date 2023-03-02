@@ -1,1 +1,8 @@
-Asisipho Fente
+read the question and rewrite it in my own words
+break the challenge down into separate components,
+and declare the function
+identify parameters
+and name the variable
+and write the test
+and return a boolean 
+Run the tests
