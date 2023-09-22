@@ -1,0 +1,2 @@
+git remote add upstream https://github.com/jlord/patchwork.gitgit remote add upstream https://github.com/jlord/patchwork.git
+courtneysembly
