@@ -1,1 +1,0 @@
-Adding new file to contributors directory for Git-it tutorial
