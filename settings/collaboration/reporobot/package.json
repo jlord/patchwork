@@ -1,0 +1,36 @@
+{
+  "name": "reporobot",
+  "version": "0.0.0",
+  "description": "a bot that interacts with git-it",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "wrongbranch": "DEBUG=* node tests/test-wrongbranch.js",
+    "manyfiles": "DEBUG=* node tests/test-toomanyfiles.js",
+    "test": "npm run wrongbranch && npm run manyfiles"
+  },
+  "author": "Jessica Lord",
+  "license": "BSD-2-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jlord/reporobot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jlord/reporobot/issues"
+  },
+  "dependencies": {
+    "asciify": "~1.3.3",
+    "async": "~0.2.10",
+    "btoa": "~1.1.2",
+    "concat-stream": "~1.4.0",
+    "debug": "~2.1.1",
+    "github-api": "michael/github",
+    "handlebars": "~1.3.0",
+    "request": "~2.33.0",
+    "run-parallel": "^1.0.0",
+    "tape": "~3.0.3"
+  },
+  "devDependencies": {
+    "standard": "^8.0.0"
+  }
+}
