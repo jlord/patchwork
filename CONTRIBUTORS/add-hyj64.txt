@@ -1,0 +1,14 @@
+Hello!
+World!
+*********************************
+Changes have been committed!
+*****************************
+Username added to Git config!
+You're on GitHub!
+Username same on GitHub and Git config!
+******************************************
+You pushed changes!
+*************************
+Origin points to your fork!
+Upstream remote set up!
+*******************************
