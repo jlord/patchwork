@@ -12,3 +12,7 @@ You pushed changes!
 Origin points to your fork!
 Upstream remote set up!
 *******************************
+Found branch as expected!
+Changes have been pushed!
+File in contributors folder!
+***************************************
