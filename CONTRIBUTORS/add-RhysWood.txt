@@ -1,5 +1,0 @@
-<<<<<<< HEAD
-RhysWood
-=======
-hello world!
->>>>>>> 75aaa37f597b87eeba0bfcd6e0fb5910969b9adc
