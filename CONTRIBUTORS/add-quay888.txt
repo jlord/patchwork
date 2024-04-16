@@ -1,1 +1,0 @@
-cos(i) = real number?
