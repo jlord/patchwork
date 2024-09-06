@@ -1,6 +1,6 @@
 son-f
 
-手動reporobot
+手動でreporobot
 
 ●●● ●●● ●●●      ●●
 ●   ● ● ● ●      ●
