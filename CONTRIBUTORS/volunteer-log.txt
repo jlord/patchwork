@@ -1,0 +1,21 @@
+Date,Name,Activity,Hours,Location
+9/15/2024,Herveen Kaur Muhammad,Survey Development,2.5,South Windsor High School
+9/15/2024,Zarif Rahman,Survey Distribution,2.0,South Windsor High School
+9/28/2024,Sri Thella,Business Partner Outreach,3.0,Local Businesses
+9/28/2024,Gian Handa,Food Bank Volunteer,2.5,Local Food Bank
+10/12/2024,Maanit Pande,Collection Bin Setup,1.5,Partner Locations
+10/12/2024,Jaden Shiju,Educational Presentation,2.0,South Windsor High School
+10/26/2024,Henry Venne,Food Drive Coordination,2.5,Community Center
+10/26/2024,Benjamin Burrill,Volunteer Training,1.5,Local Food Bank
+11/9/2024,Girish Prasad,Food Collection,2.0,Partner Locations
+11/9/2024,Rakshin Vinothkumar,Data Analysis,1.5,South Windsor High School
+11/23/2024,Ishan Agarwal,Holiday Drive Planning,2.0,South Windsor High School
+11/23/2024,Ishaan Shaik,Food Distribution,3.0,Community Center
+12/3/2024,Hunday Doreen Nise,Business Partner Meeting,1.5,Local Businesses
+12/3/2024,Veer Rupani,Education Program,2.0,South Windsor High School
+12/17/2024,Anishka Vejendla,Food Sorting,2.5,Local Food Bank
+12/17/2024,Saisatvik Koppu,Program Assessment,1.5,South Windsor High School
+1/7/2025,Vikruthy Hariharan,Final Report Compilation,2.0,South Windsor High School
+1/7/2025,Oviya Olinilavon,Data Documentation,1.5,South Windsor High School
+1/21/2025,Naynika Abburi,Project Presentation,2.0,South Windsor High School
+1/21/2025,Atharva Dhok,Final Distribution Event,2.5,Community Center
