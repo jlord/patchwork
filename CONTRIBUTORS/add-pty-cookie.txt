@@ -1,1 +1,0 @@
-pty-cookie
