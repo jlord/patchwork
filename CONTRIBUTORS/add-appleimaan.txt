@@ -1,8 +1,0 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Mar 30 17:31:32 2025
-
-@author: Imaan Ali
-"""
-
-appleimaan
