@@ -1,0 +1,165 @@
+
+                                                                       
+    GIT + GITHUB : VERSION CONTROL + SOCIAL CODING                     
+    -----------------------------------------------------------------  
+    » GET GIT                                             [COMPLETED]  
+    » REPOSITORY                                          [COMPLETED]  
+    » COMMIT TO IT                                        [COMPLETED]  
+    » GITHUBBIN                                           [COMPLETED]  
+    » REMOTE CONTROL                                                   
+    » FORKS AND CLONES                                                 
+    » BRANCHES AREN'T JUST FOR BIRDS                                   
+    » IT'S A SMALL WORLD                                               
+    » PULL, NEVER OUT OF DATE                                          
+    » REQUESTING YOU PULL, PLEASE                                      
+    » MERGE TADA!                                                      
+    -----------------------------------------------------------------  
+    HELP                                                               
+    EXIT                                                               
+                                                                       
+
+  #####################################################################
+  ##                     ~~  REMOTE CONTROL  ~~                      ##
+  #####################################################################
+
+  Connect your local and remote repositories and push changes.
+
+  Use the guide (see below) for step-by-step instructions.
+
+  ---------------------------------------------------------------------
+
+  » To verify your work for this problem, run: `git-it verify`.
+  » Run `git-it` again to launch menu & go onto next challenge
+
+  GUIDE
+
+  » Open the guide in your browser: jlord.github.io/git-it
+  » Traditional Chinese guide: jlord.github.io/git-it/index-zhtw.html
+
+  » To view guide offline, copy this address to your browser:
+
+                                                                       
+    GIT + GITHUB : VERSION CONTROL + SOCIAL CODING                     
+    -----------------------------------------------------------------  
+    » GET GIT                                             [COMPLETED]  
+    » REPOSITORY                                          [COMPLETED]  
+    » COMMIT TO IT                                        [COMPLETED]  
+    » GITHUBBIN                                           [COMPLETED]  
+    » REMOTE CONTROL                                      [COMPLETED]  
+    » FORKS AND CLONES                                                 
+    » BRANCHES AREN'T JUST FOR BIRDS                                   
+    » IT'S A SMALL WORLD                                               
+    » PULL, NEVER OUT OF DATE                                          
+    » REQUESTING YOU PULL, PLEASE                                      
+    » MERGE TADA!                                                      
+    -----------------------------------------------------------------  
+    HELP                                                               
+    EXIT                                                               
+                                                                       
+
+  #####################################################################
+  ##                    ~~  FORKS AND CLONES  ~~                     ##
+  #####################################################################
+
+  Fork a project from GitHub.com and clone it locally.
+  
+  Use the guide (see below) for step-by-step instructions.
+
+  ---------------------------------------------------------------------
+
+  » To verify your work for this problem, run: `git-it verify`.
+  » Run `git-it` again to launch menu & go onto next challenge
+
+  GUIDE
+
+  » Open the guide in your browser: jlord.github.io/git-it
+  » Traditional Chinese guide: jlord.github.io/git-it/index-zhtw.html
+
+  » To view guide offline, copy this address to your browser:
+  » /Users/zeinabibrahim/.nvm/versions/node/v17.0.1/lib/node_modules/git-it/guide/index.html 
+  » /Users/zeinabibrahim/.nvm/versions/node/v17.0.1/lib/node_modules/git-it/guide/index-zhtw.html
+
+
+zeinabibrahim@Zeinabs-MacBook-Air-2 hello-world % cd ..
+zeinabibrahim@Zeinabs-MacBook-Air-2 ~ % ls
+Applications		Downloads		Music			file.txt		kata1
+Desktop			Library			Pictures		hello-world		package-lock.json
+Documents		Movies			Public			javascripting
+zeinabibrahim@Zeinabs-MacBook-Air-2 ~ % git clone jlord.github.io/patchwork
+fatal: repository 'jlord.github.io/patchwork' does not exist
+zeinabibrahim@Zeinabs-MacBook-Air-2 ~ % git clone jlord.github.io/patchwork
+fatal: repository 'jlord.github.io/patchwork' does not exist
+zeinabibrahim@Zeinabs-MacBook-Air-2 ~ % git clone git@github.com:jlord/patchwork.git
+
+Cloning into 'patchwork'...
+The authenticity of host 'github.com (140.82.113.4)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? no
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+                                                                       
+    GIT + GITHUB : VERSION CONTROL + SOCIAL CODING                     
+    -----------------------------------------------------------------  
+    » GET GIT                                             [COMPLETED]  
+    » REPOSITORY                                          [COMPLETED]  
+    » COMMIT TO IT                                        [COMPLETED]  
+    » GITHUBBIN                                           [COMPLETED]  
+    » REMOTE CONTROL                                      [COMPLETED]  
+    » FORKS AND CLONES                                    [COMPLETED]  
+    » BRANCHES AREN'T JUST FOR BIRDS                                   
+    » IT'S A SMALL WORLD                                               
+    » PULL, NEVER OUT OF DATE                                          
+    » REQUESTING YOU PULL, PLEASE                                      
+    » MERGE TADA!                                                      
+    -----------------------------------------------------------------  
+    HELP                                                               
+    EXIT                                                               
+                                                                       
+
+  #####################################################################
+  ##             ~~  BRANCHES AREN'T JUST FOR BIRDS  ~~              ##
+  #####################################################################
+
+  Create a new branch on your fork for your contribution.
+  
+  Use the guide (see below) for step-by-step instructions.
+
+  ---------------------------------------------------------------------
+
+  » To verify your work for this problem, run: `git-it verify`.
+  » Run `git-it` again to launch menu & go onto next challenge
+
+  GUIDE
+
+  » Open the guide in your browser: jlord.github.io/git-it
+  » Traditional Chinese guide: jlord.github.io/git-it/index-zhtw.html
+
+  » To view guide offline, copy this address to your browser:
+  » /Users/zeinabibrahim/.nvm/versions/node/v17.0.1/lib/node_modules/git-it/guide/index.html 
+  » /Users/zeinabibrahim/.nvm/versions/node/v17.0.1/lib/node_modules/git-it/guide/index-zhtw.html
+
+
+zeinabibrahim@Zeinabs-MacBook-Air-2 patchwork % git status
+On branch gh-pages
+Your branch is up to date with 'origin/gh-pages'.
+
+nothing to commit, working tree clean
+zeinabibrahim@Zeinabs-MacBook-Air-2 patchwork % 
+  [Restored Nov 1, 2021 at 8:54:06 PM]
+Last login: Mon Nov  1 20:54:06 on ttys001
+zeinabibrahim@Zeinabs-MacBook-Air-2 patchwork % git status
+On branch gh-pages
+Your branch is up to date with 'origin/gh-pages'.
+
+nothing to commit, working tree clean
+zeinabibrahim@Zeinabs-MacBook-Air-2 patchwork % git branch "add-ZeinabMahdi"
+zeinabibrahim@Zeinabs-MacBook-Air-2 patchwork % cd
+zeinabibrahim@Zeinabs-MacBook-Air-2 ~ % git checkout "add-ZeinabMahdi"
+fatal: not a git repository (or any of the parent directories): .git
+zeinabibrahim@Zeinabs-MacBook-Air-2 ~ % git checkout "add-ZeinabMahdi"
+fatal: not a git repository (or any of the parent directories): .git
+zeinabibrahim@Zeinabs-MacBook-Air-2 ~ % 
